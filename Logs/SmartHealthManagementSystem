@@ -1,0 +1,37 @@
+2024-11-12T10:26:08.360+05:30  WARN 20512 --- [SmartHealthManagementSystem] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h37m29s702ms386µs900ns).
+2024-11-12T12:28:15.848+05:30  WARN 20512 --- [SmartHealthManagementSystem] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m35s827ms985µs300ns).
+2024-11-12T20:34:00.263+05:30  WARN 20512 --- [SmartHealthManagementSystem] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h3m44s330ms996µs800ns).
+2024-11-12T23:08:03.921+05:30  INFO 20512 --- [SmartHealthManagementSystem] [RMI TCP Connection(645)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-11-12T23:08:04.160+05:30  INFO 20512 --- [SmartHealthManagementSystem] [RMI TCP Connection(645)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-12T23:08:04.222+05:30  INFO 20512 --- [SmartHealthManagementSystem] [RMI TCP Connection(645)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-12T23:08:04.236+05:30  INFO 20512 --- [SmartHealthManagementSystem] [RMI TCP Connection(645)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-12T23:08:13.797+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] S.SmartHealthManagementSystemApplication : Starting SmartHealthManagementSystemApplication using Java 21.0.2 with PID 23824 (C:\Users\Pradip Kumar Singh\Desktop\Assignment\Final Project\SmartHealthManagementSystem\target\classes started by Pradip Kumar Singh in C:\Users\Pradip Kumar Singh\Desktop\Assignment\Final Project\SmartHealthManagementSystem)
+2024-11-12T23:08:13.799+05:30 DEBUG 23824 --- [SmartHealthManagementSystem] [main] S.SmartHealthManagementSystemApplication : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-12T23:08:13.800+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] S.SmartHealthManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-11-12T23:08:16.238+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-12T23:08:16.356+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 8 JPA repository interfaces.
+2024-11-12T23:08:17.114+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-12T23:08:17.137+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-12T23:08:17.137+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-12T23:08:17.234+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-12T23:08:17.235+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3368 ms
+2024-11-12T23:08:17.479+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-12T23:08:17.619+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-12T23:08:17.699+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-12T23:08:18.270+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-12T23:08:18.328+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-12T23:08:18.569+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b4b8199
+2024-11-12T23:08:18.571+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-12T23:08:18.708+05:30  WARN 23824 --- [SmartHealthManagementSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-12T23:08:19.815+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-12T23:08:19.975+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-12T23:08:20.396+05:30  WARN 23824 --- [SmartHealthManagementSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-12T23:08:20.418+05:30  WARN 23824 --- [SmartHealthManagementSystem] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6d10f9c8-2b01-4e0c-98c1-fbda3509c7cc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-11-12T23:08:20.426+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-12T23:08:20.945+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-12T23:08:20.952+05:30  INFO 23824 --- [SmartHealthManagementSystem] [main] S.SmartHealthManagementSystemApplication : Started SmartHealthManagementSystemApplication in 7.616 seconds (process running for 8.704)
